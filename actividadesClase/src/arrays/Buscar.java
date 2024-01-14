@@ -6,15 +6,15 @@ import java.util.Scanner;
 public class Buscar {
 	
 	/*
-	 * BUSCAR EN ARRAY NO ORDENADO
+	 * BUSCAR EN ARRAY NO ORDENADO (Ejemplo 8)
 	 */
 	
-	// Buscame en este arry esto = clave
+	// Buscame en este array esto = clave
 	static int buscar(int t[], int clave) {
 		int posicion;
 		int i = 0;
 		
-		// Mientras el indice no haya llegado al final y el contenido sea distnto de la calve
+		// Mientras el indice no haya llegado al final y el contenido sea distinto de la calve
 		// ve moviendote
 		while (i < t.length && t[i] != clave) {
 			i++;

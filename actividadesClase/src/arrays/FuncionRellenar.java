@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class FuncionRellenar {
 	
 	/*
-	 * Contruye una función que haga lo mismo que el método .fill.
+	 * Construye una función que haga lo mismo que el método .fill.
 	 * static void rellenar (int t[], int valor)
 	 * Lo que va a hacer es rellenar el Array de entero t[] con el número "valor".
 	 */
